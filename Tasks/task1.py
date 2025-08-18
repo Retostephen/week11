@@ -6,3 +6,4 @@ for a in range(len(word)):
 		if word[a] == word[b]:
 			count += 1
 	if count == 1:
+		print(word[a])
